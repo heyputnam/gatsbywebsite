@@ -27,33 +27,31 @@ const Layout = ({company, children}) => {
             <nav>
                 <ul className={navLinks}>
                     <li className={navLinkItem}>
-                        <AnchorLink to='/index#packages'className={navLinkText}
+                        <AnchorLink to='#packages'className={navLinkText}
                         title='packages'></AnchorLink>
                     </li>
                     <li className={navLinkItem}>
-                        <AnchorLink to='/index#testimonials' className={navLinkText} title='testimonials'> 
+                        <AnchorLink to='#testimonials' className={navLinkText} title='testimonials'> 
                         </AnchorLink>
                         </li>
                     <li className={navLinkItem}>
-                        <AnchorLink to='/index#reviews' className={navLinkText}title='reviews'></AnchorLink>
+                        <AnchorLink to='#reviews' className={navLinkText}title='reviews'></AnchorLink>
                         </li>
                     <li className={navLinkItem}>
-                        <AnchorLink to='/index#contact' className={navLinkText}title='contact'></AnchorLink>
+                        <AnchorLink to='#contact' className={navLinkText}title='contact'></AnchorLink>
                         </li>
 
                 </ul>
             </nav>
             <section className={bighero}>
-                {children}
+                {children.bighero}
             </section>
             <section className={packages} id='packages'>
-                {children}
+        
             </section>
             <section className={testimonials} id='testimonials'>
-                {children}
             </section>
             <section className={reviews} id='reviews'>
-                {children}
             </section>
             <section className={contact} id='contact'>
                 {children}
