@@ -9,6 +9,7 @@ import {
      navLinks,
      navLinkItem,
      navLinkText,
+     sectionContainer,
      bighero,
      packages,
      testimonials,
@@ -43,6 +44,7 @@ const Layout = ({company, children}) => {
 
                 </ul>
             </nav>
+            <div className={sectionContainer}>
             <section className={bighero}>
                 {children.bighero}
             </section>
@@ -56,8 +58,9 @@ const Layout = ({company, children}) => {
             <section className={contact} id='contact'>
                 {children}
             </section>
+            </div>
             <footer className={footer}>
-                <div className={footerContainer}>
+                <section className={footerContainer}>
                 <ul>
                     <li>
                     <FiFacebook />
@@ -72,8 +75,8 @@ const Layout = ({company, children}) => {
                     <FiMail />
                     </li>
                 </ul>
-                <p className={copyright}>© {company}</p>
-                     </div>
+                </section>
+                <p className={copyright}>© {company}</p>    
             </footer>
         </main>
     )
