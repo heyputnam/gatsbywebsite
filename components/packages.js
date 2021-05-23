@@ -5,11 +5,11 @@ import Package from './package'
 
 const Packages = ({packages, number}) => {
     return(
-        <main className={packages}>
+        <section className={packages} id='packages'>
             <Package number='1'/>
             <Package number='2'/>
             <Package number='2'/>
-        </main>
+        </section>
         
     )
 }

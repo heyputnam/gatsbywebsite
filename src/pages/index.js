@@ -11,12 +11,12 @@ import { bighero, packages, testimonials, reviews, contact } from '../../compone
 
 const IndexPage = () => {
   return(
-    <Layout company='Kayo Time'>
-        <BigHero className={bighero}/>
-        <Packages className={packages}/>
-        <Testimonials className={testimonials}/>
-        <Reviews className={reviews}/>
-        <Contact className={contact}/>
+    <Layout company='Kayo Time Details'>
+        <BigHero />
+        <Packages />
+        <Testimonials />
+        <Reviews />
+        <Contact/>
     </Layout>
   )
 }

@@ -4,9 +4,9 @@ import Test from '../components/test'
 
 const Testimonials = () => {
     return(
-        <main>
+        <section id='testimonials'>
             <Test />
-        </main>
+        </section>
     )
 }
 

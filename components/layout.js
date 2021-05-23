@@ -10,11 +10,6 @@ import {
      navLinkItem,
      navLinkText,
      sectionContainer,
-     bighero,
-     packages,
-     testimonials,
-     reviews,
-     contact,
      footer,
      footerContainer,
      copyright,
@@ -45,19 +40,7 @@ const Layout = ({company, children}) => {
                 </ul>
             </nav>
             <div className={sectionContainer}>
-            <section className={bighero}>
-                {children.bighero}
-            </section>
-            <section className={packages} id='packages'>
-        
-            </section>
-            <section className={testimonials} id='testimonials'>
-            </section>
-            <section className={reviews} id='reviews'>
-            </section>
-            <section className={contact} id='contact'>
                 {children}
-            </section>
             </div>
             <footer className={footer}>
                 <section className={footerContainer}>
@@ -76,7 +59,7 @@ const Layout = ({company, children}) => {
                     </li>
                 </ul>
                 </section>
-                <p className={copyright}>© {company}</p>    
+                <p className={copyright}>©2021 {company}</p>    
             </footer>
         </main>
     )
