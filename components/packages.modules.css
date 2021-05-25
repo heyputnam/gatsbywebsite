@@ -1,0 +1,10 @@
+.packageBox{
+    margin: 50px;
+}
+
+#packages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}

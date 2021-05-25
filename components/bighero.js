@@ -1,13 +1,13 @@
 
 import * as React from 'react' 
-import { heroContainer } from '../components/bighero.module.css'
+import { heroContainer,
+     superName } from '../components/bighero.module.css'
 import fullpage from 'fullpage.js'
 
 const BigHero = () => {
     return(
         <section className={heroContainer}>
-            <p>IM BIGHERO
-            </p>
+           <h1 className={superName}>KAYO TIME DETAILS.</h1>
         </section>
     )
 }

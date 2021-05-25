@@ -1,0 +1,22 @@
+/* .packageContainer{
+    position: absolute;
+
+}
+ */
+
+ section .packageContainer{
+     height: 450px;
+     width: 350px;
+     box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+     0 0  0 2px rgb(255,255,255),
+     0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+ }
+
+ .group{
+     text-align: center;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ /* <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-0a54b799-c158-4be9-bdd5-a25f73332f30"></div> */

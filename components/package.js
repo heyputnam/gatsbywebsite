@@ -1,11 +1,16 @@
 
 import * as React from 'react' 
+import {packageContainer, group} from '../components/package.module.css'
 
-const Package = ({number}) => {
+const Package = ({number, packageTitle, description, price}) => {
     return(
-        <main>
-            <p>im a package number {number}</p>
-        </main>
+        <section className={packageContainer}>
+            <section className={group}>
+           <h2>{packageTitle}</h2>
+           <p>{description}</p>
+           <p>{price}</p>
+           </section>
+        </section>
     )
 }
 

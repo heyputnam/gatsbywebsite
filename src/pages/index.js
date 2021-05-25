@@ -5,6 +5,7 @@ import Packages from '../../components/packages'
 import Testimonials from "../../components/testimonials"
 import Reviews from '../../components/reviews'
 import Contact from '../../components/contact'
+import { ElfsightWidget } from 'react-elfsight-widget'
 
 import { bighero, packages, testimonials, reviews, contact } from '../../components/layout'
 
